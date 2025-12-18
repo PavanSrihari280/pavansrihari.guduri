@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Phone } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Linkedin, Send, ArrowUpRight } from "lucide-react";
@@ -58,7 +59,7 @@ const Contact = () => {
                 Connect with me on LinkedIn to explore my professional journey, endorsements, and recommendations from colleagues and clients.
               </p>
               <Button variant="hero" size="lg" className="w-full" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/srihari-guduri" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-5 h-5 mr-2" />
                   View Professional Profile
                   <ArrowUpRight className="w-4 h-4 ml-2" />
@@ -70,7 +71,7 @@ const Contact = () => {
               <h3 className="font-display text-xl font-bold mb-4">Quick Connect</h3>
               <div className="space-y-4">
                 <a 
-                  href="mailto:contact@example.com" 
+                  href="mailto:pavansrihari.g@gmail.com" 
                   className="flex items-center gap-4 p-4 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -78,11 +79,23 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <div className="font-medium">Get in touch via email</div>
+                    <div className="font-medium">pavansrihari.g@gmail.com</div>
                   </div>
                 </a>
                 <a 
-                  href="#" 
+                  href="tel:+918466970672" 
+                  className="flex items-center gap-4 p-4 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors group"
+                >
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <Phone className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <div className="text-sm text-muted-foreground">Phone</div>
+                    <div className="font-medium">+91 846 697 0672</div>
+                  </div>
+                </a>
+                <a 
+                  href="https://linkedin.com/in/srihari-guduri" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors group"

@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Heart } from "lucide-react";
+import { Linkedin, Mail, Heart, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://linkedin.com/in/srihari-guduri"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors"
@@ -27,11 +27,18 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:pavansrihari.g@gmail.com"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors"
               aria-label="Email"
             >
               <Mail className="w-5 h-5" />
+            </a>
+            <a
+              href="tel:+918466970672"
+              className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors"
+              aria-label="Phone"
+            >
+              <Phone className="w-5 h-5" />
             </a>
           </div>
 
