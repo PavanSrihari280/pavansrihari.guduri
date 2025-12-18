@@ -16,11 +16,11 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#career", label: "Career" },
-    { href: "#expertise", label: "Expertise" },
-    { href: "#projects", label: "Projects" },
-    { href: "#awards", label: "Awards" },
+    { href: "#/about", label: "About" },
+    { href: "#/career", label: "Career" },
+    { href: "#/expertise", label: "Expertise" },
+    { href: "#/projects", label: "Projects" },
+    { href: "#/awards", label: "Awards" },
   ];
 
   return (
@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#" className="font-display font-bold text-xl">
+          <a href="#/" className="font-display font-bold text-xl">
             <span className="gradient-text">PAVAN</span>
           </a>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="hero" size="sm" asChild>
-              <a href="#contact">Let's Talk</a>
+              <a href="#/contact">Let's Talk</a>
             </Button>
           </div>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="hero" size="lg" className="w-full" asChild>
-                <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                <a href="#/contact" onClick={() => setIsMobileMenuOpen(false)}>
                   Let's Talk
                 </a>
               </Button>
