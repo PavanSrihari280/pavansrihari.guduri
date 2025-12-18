@@ -1,0 +1,25 @@
+name: Ensure GitHub Pages uses gh-pages
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  set-pages-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set GitHub Pages source to gh-pages
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // This puts the Pages source to the gh-pages branch (root)
+            await github.request('PUT /repos/{owner}/{repo}/pages', {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              source: { branch: 'gh-pages', path: '/' }
+            })
