@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+G D Pavan Sri Hari Raju — Professional Portfolio
 
-## Project info
+This repository hosts my personal professional portfolio, created solely for self-presentation and career documentation purposes.
+It is intended to summarize my education, employment history, and technical skill set in a single, public reference.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 Portfolio Website
+https://pavansrihari280.github.io/pavansrihari.guduri/
 
-## How can I edit this code?
+Professional Summary
 
-There are several ways of editing your application.
+I am a software professional specializing in Appian low-code development, with 4+ years of industry experience working in structured corporate environments.
 
-**Use Lovable**
+My experience includes:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Enterprise application development
 
-Changes made via Lovable will be committed automatically to this repo.
+Business process automation
 
-**Use your preferred IDE**
+Application maintenance and production support
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This portfolio does not represent commercial services, freelance work, or independent consulting.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Employment History
+Currently working aa a Lead software engineer
 
-Follow these steps:
+Contributed to enterprise software development initiatives
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Followed client security, documentation, and delivery protocols
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Technical Skill Set
 
-# Step 3: Install the necessary dependencies.
-npm i
+Primary Platform: Appian (L2 Certified)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Application Development: SAIL Interfaces, Process Models, Records
 
-**Edit a file directly in GitHub**
+Frontend Technologies: React, TypeScript
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+UI & Styling: Tailwind CSS, shadcn/ui
 
-**Use GitHub Codespaces**
+Build Tools: Vite
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Version Control: Git, GitHub
 
-## What technologies are used for this project?
+Skills listed are based on employment experience, internal projects, and structured learning.
 
-This project is built with:
+Purpose of This Portfolio
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This portfolio exists to:
 
-## How can I deploy this project?
+Present my professional background to recruiters and employers
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Maintain a centralized record of skills and experience
 
-## Can I connect a custom domain to my Lovable project?
+Demonstrate familiarity with modern frontend tooling
 
-Yes, you can!
+It is not used to offer services, accept work, or generate income.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Project Information
+Technology Stack Used
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+React
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+This project is a static informational site with no backend services, payments, or user data collection.
+
+Hosting & Deployment
+
+Hosted via GitHub Pages
+
+Publicly accessible for viewing only
+
+No authentication, transactions, or business activity involved
+
+Custom domains may be mapped purely for branding and readability.
+
+Public Profiles
+
+GitHub: https://github.com/pavansrihari280
+
+Compliance Statement
+
+This repository contains no commercial work
+
+No freelance, contract, or client services are offered
+
+No income is generated from this portfolio
+
+Content reflects past employment, education, and personal learning only
