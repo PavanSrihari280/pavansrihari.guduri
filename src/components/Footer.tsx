@@ -44,7 +44,7 @@ const Footer = () => {
 
           {/* Made with */}
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
-            Built with <Heart className="w-4 h-4 text-red-500 fill-red-500 mx-1" /> for enterprise excellence
+            Built with passion for enterprise excellence
           </div>
         </div>
       </div>
